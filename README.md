@@ -5,7 +5,18 @@ This project is the final project of my Signals & Systems course at Shahid Behes
 ### Result
 below is the output of applying filters on the original image which is also displayed using subplot.
 
+stride: 1
 ![sharpening and sobels](https://github.com/mehrshad-sdtn/Spatial-Filtering-2DConvolution/blob/master/output-images/Andrew.png)
+
+stride: 2
 ![gaussian 5x5](https://github.com/mehrshad-sdtn/Spatial-Filtering-2DConvolution/blob/master/output-images/Bengio.png)
+
+stride: 2
 ![averaging filter](https://github.com/mehrshad-sdtn/Spatial-Filtering-2DConvolution/blob/master/output-images/Goodfellow.png)
+
+streide: 3
 ![horizontal & vertical edge](https://github.com/mehrshad-sdtn/Spatial-Filtering-2DConvolution/blob/master/output-images/Leskovec.png)
+ 
+ 
+ <br/>
+ smaller stride means smaller step in sliding operation, hence, output pixels will be closer and we will have better quality in the output
