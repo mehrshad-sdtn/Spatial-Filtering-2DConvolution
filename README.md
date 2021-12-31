@@ -5,16 +5,16 @@ This project is the final project of my Signals & Systems course at Shahid Behes
 ### Result
 below is the output of applying filters on the original image which is also displayed using subplot.
 
-stride: 1
+stride: 2
 ![sharpening and sobels](https://github.com/mehrshad-sdtn/Spatial-Filtering-2DConvolution/blob/master/output-images/Andrew.png)
 
-stride: 2
+stride: 1
 ![gaussian 5x5](https://github.com/mehrshad-sdtn/Spatial-Filtering-2DConvolution/blob/master/output-images/Bengio.png)
 
-stride: 2
+stride: 3
 ![averaging filter](https://github.com/mehrshad-sdtn/Spatial-Filtering-2DConvolution/blob/master/output-images/Goodfellow.png)
 
-streide: 3
+streide: 2
 ![horizontal & vertical edge](https://github.com/mehrshad-sdtn/Spatial-Filtering-2DConvolution/blob/master/output-images/Leskovec.png)
  
  
