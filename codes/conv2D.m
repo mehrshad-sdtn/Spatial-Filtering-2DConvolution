@@ -25,6 +25,8 @@ function feature_map = conv2D(img, filters, stride, padding)
     img = padded;
     end
   
+    % 4 for loops might look scary but channels are never more than 3 and filters_count is always in the (0, 5) range 
+    % so the time complexity is in fact not more than O(n^2)
     for k = 1:filters_count %for each filter in filters do 
         
         kernel = filters(:,:,k);
